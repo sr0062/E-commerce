@@ -1,0 +1,27 @@
+p#highlights {/*id for paragraphs only*/
+    color: black;
+    font-weight: bold;
+    background: #FFFF66; /* yellow */
+    border: 2px solid black;
+    padding: 1em;
+   
+  }
+  a{
+      padding: 0.5em;
+  }
+  .review {
+    background-color: #E6EBF5; /* pale blue */
+    border: 1px solid #003399; /* dark blue */
+  }
+  p.summary {/*class for paragraphs only*/
+  	font-style: italic;
+  }
+ 
+  #highestreview{
+    background-color: orange; /* pale blue */
+    border: 1px solid #FFFF66; /* dark blue */
+  }
+  #darkknight{
+      background-color: black;
+      color: white;
+  }
