@@ -4,3 +4,7 @@ git add .
 git commit -m "first commit" 
 git remote add origin https://github.com/sr0062/E-commerce.git
 git push -u origin master 
+
+
+$ git fetch remotename
+# Fetches updates made to a remote repository

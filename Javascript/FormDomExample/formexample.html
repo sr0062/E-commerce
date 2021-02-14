@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form id="myForm" onsubmit="print()">
+  First name:<br><input type="text"  id="fname" name="fname"><br>
+  Last name:<br> <input type="text" id="lname" name="lname"><br>
+  Password:<br> <input type="text" id="pass"><br>
+  Confirm password:<br> <input type="text" id="confirmpass"><br>
+  <input type="submit" value="Submit" >
+</form> 
+
+<p>
+  Another example
+
+</p>
+<button type="button" onclick='window.alert("You clicked the button")''>Button</button>
+
+
+
+</body>
+<script>
+
+
+  function print(){
+    var myInput = document.getElementById("fname").value;
+    window.alert(myInput)
+
+    var pwd = document.getElementById("pass").value;
+    var confPwd  =document.getElementById("confirmpass").value; 
+    if (pwd == confPwd)
+      window.alert("Passwords match.")
+    else
+      window.alert("Check Passwords!")
+    
+  }
+
+
+
+
+</script>
+</html>
