@@ -19,6 +19,7 @@ if (mysqli_connect_errno()) {
 		printf("Could not create table: %s\n", mysqli_error($mysqli));
 	}
 	//echo "After updates";
+	//echo "added another line"
 	mysqli_close($mysqli);
 }
 ?>
